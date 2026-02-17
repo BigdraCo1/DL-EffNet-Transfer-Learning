@@ -1,0 +1,45 @@
+
+==== RUN @ 2026-02-13 21:05:39 ====
+
+
+--- Trial 1/8 | cfg={'lr_a': 0.001, 'wd_a': 0.0001, 'lr_b': 0.0001, 'wd_b': 0.0001, 'unfreeze_blocks': 6} ---
+Classes: ['10', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'j', 'k', 'q']
+Phase A trainable params: 344333
+== Trial 1/8 | cfg={'lr_a': 0.001, 'wd_a': 0.0001, 'lr_b': 0.0001, 'wd_b': 0.0001, 'unfreeze_blocks': 6} | Phase A (head-only) | epochs=8 ==
+[ep 01] batch 0001/0776 | loss=8.311619
+[ep 01] batch 0050/0776 | loss=2.837468
+[ep 01] batch 0100/0776 | loss=2.912880
+[ep 01] batch 0150/0776 | loss=2.246327
+[ep 01] batch 0200/0776 | loss=2.120060
+[ep 01] batch 0250/0776 | loss=2.301911
+[ep 01] batch 0300/0776 | loss=2.368853
+[ep 01] batch 0350/0776 | loss=2.004408
+[ep 01] batch 0400/0776 | loss=1.882345
+[ep 01] batch 0450/0776 | loss=1.530554
+[ep 01] batch 0500/0776 | loss=1.942224
+[ep 01] batch 0550/0776 | loss=1.371001
+[ep 01] batch 0600/0776 | loss=1.242450
+[ep 01] batch 0650/0776 | loss=1.632636
+[ep 01] batch 0700/0776 | loss=2.084300
+[ep 01] batch 0750/0776 | loss=1.520741
+[ep 01] batch 0776/0776 | loss=1.573873
+[ep 01] train_loss=2.122090 val_loss=1.205265 acc=0.620384 f1=0.619413 bad=0/3 sec=264.37 IMPROVED
+[ep 02] batch 0001/0776 | loss=1.258793
+[ep 02] batch 0050/0776 | loss=1.708477
+[ep 02] batch 0100/0776 | loss=1.194956
+[ep 02] batch 0150/0776 | loss=1.659366
+[ep 02] batch 0200/0776 | loss=1.367415
+[ep 02] batch 0250/0776 | loss=1.523789
+[ep 02] batch 0300/0776 | loss=1.264100
+[ep 02] batch 0350/0776 | loss=1.639877
+[ep 02] batch 0400/0776 | loss=1.295671
+[ep 02] batch 0450/0776 | loss=1.166487
+[ep 02] batch 0500/0776 | loss=1.014936
+[ep 02] batch 0550/0776 | loss=1.047885
+[ep 02] batch 0600/0776 | loss=1.041691
+[ep 02] batch 0650/0776 | loss=1.411228
+[ep 02] batch 0700/0776 | loss=1.333825
+[ep 02] batch 0750/0776 | loss=0.945973
+[ep 02] batch 0776/0776 | loss=1.084761
+[ep 02] train_loss=1.326927 val_loss=0.856077 acc=0.702951 f1=0.703655 bad=0/3 sec=278.68 IMPROVED
+[ep 03] batch 0001/0776 | loss=1.293166
